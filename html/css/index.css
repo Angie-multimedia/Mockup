@@ -1,0 +1,71 @@
+h1{
+    text-align: center;
+    height: 60px;
+    background: #873b5a;
+    color: azure;
+    padding: -6px;
+    margin: -6px;
+}
+
+#proyectos{
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: oblique;
+    color: #873b5a;
+
+}
+
+nav a{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size:25 ;
+}
+#artesPlasticas{
+    position: inherit;
+    border-color: black;
+    width: 200px;
+    height: 85%;
+    align-content: center;
+    background-color: rgb(241, 197, 232);
+
+}
+
+#footer{
+    background-color: #f198be;
+}
+
+.menu{
+    position:absolute;
+    top: 10%;
+    left: 70%;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+
+.galeria {
+    top: 20%;
+    left: 45%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4px;
+    max-width: 400px;
+    margin: auto;
+    position: absolute;
+  }
+  .galeria img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
